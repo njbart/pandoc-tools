@@ -5,9 +5,11 @@ Collection of tools, scripts, and useful knowledge for pandoc, pandoc-citeproc, 
 ## Tips & Tricks
 
 - Cite all entries from a bib file
-  ~~~
-  ---
-  nocite: '@*'
-  ...
-  ~~~
+
+```
+---
+nocite: '@*'
+...
+```
+
 - …
