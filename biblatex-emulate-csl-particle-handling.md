@@ -1,6 +1,6 @@
 Using `\DeclareSourcemap` (see biblatex manual) and `\AtBeginBibliography{\togglefalse{blx@useprefix}}`, three commands can be defined that emulate the CSL “demote-non-dropping-particle” options. Stripping out leading particles relies on a simple regexp, so it might not be completely robust.
 
-Note that this relies on BBT writing out `useprefix=true` rather than just `useprefix` to simplify the regexp.
+Note that this relies on entries containing `useprefix=true` rather than just `useprefix` to simplify the regexp.
 
 ```latex
 \documentclass{article}
@@ -92,7 +92,7 @@ Note that this relies on BBT writing out `useprefix=true` rather than just `usep
 
 With `\demotenondroppingparticlenever`
 
->**1 Text**
+> **1 Text**
 van Gogh 2015; Humboldt 2015; a n.d.; f n.d.; h n.d.; k n.d.; z n.d.
 **References**
 a. *Dummy.*
@@ -105,7 +105,7 @@ z. *Dummy.*
 
 With `\demotenondroppingparticlesortonly`
 
->**1 Text**
+> **1 Text**
 van Gogh 2015; Humboldt 2015; a n.d.; f n.d.; h n.d.; k n.d.; z n.d.
 **References**
 a. *Dummy.*
@@ -118,7 +118,7 @@ z. *Dummy.*
 
 With `\demotenondroppingparticledisplayandsort`
 
->**1 Text**
+> **1 Text**  
 van Gogh 2015; Humboldt 2015; a n.d.; f n.d.; h n.d.; k n.d.; z n.d.
 **References**
 a. *Dummy.*
