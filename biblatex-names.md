@@ -9,7 +9,7 @@
 ### Prefixes containing punctuation
 
 - Spaces are required, or else the biber parser does not see a prefix:
-  - `{d’ Alembert, Jean}
+  - `{d’ Alembert, Jean}`
 - biber bugs:
   - leading punctuations
     - `{'s- Gravesande, Goverdus}`: `'s-` not parsed as prefix
