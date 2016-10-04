@@ -13,7 +13,7 @@
 - biber bugs:
   - leading punctuation
     - `{'s- Gravesande, Goverdus}`: `'s-` not parsed as prefix
-- To remove these spaces in latex output, also after `’-` (`'` is default):
+- To remove these spaces in latex output, also after smart apostrophe and hyphen:
   - `\DeclarePrefChars{'’-}` – see biblatex manual
  
 ### Formatting
@@ -28,5 +28,8 @@
 ~~~
 
 - Do not capitalise prefixes at beginning of reference list entries:
-  - `\renewbibmacro*{begentry}{\midsentence}`
+
+~~~
+\renewbibmacro*{begentry}{\midsentence}
+~~~
 
