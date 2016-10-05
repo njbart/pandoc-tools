@@ -15,12 +15,12 @@ reference-section-title: References
 
 ## pandoc-citeproc bugs
 
-- cheater syntax
+- cheater syntax [docs](https://citeproc-js.readthedocs.io/en/latest/csl-json/markup.html#cheater-syntax-for-odd-fields)
   - does not parse line-entry cheater syntax
   - does not parse dates and date ranges in cheater syntax
   - does not parse names in cheater syntax
-- EDTF
-- hanging indent in reference section
+- EDTF (not supported yet)
+- hanging indent in reference section (not supported yet)
 
 ## pandoc-citeproc projects
 
