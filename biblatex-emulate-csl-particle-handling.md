@@ -92,39 +92,39 @@ Note that this relies on entries containing `useprefix=true` rather than just `u
 
 With `\demotenondroppingparticlenever`
 
-> **1 Text**
-van Gogh 2015; Humboldt 2015; a n.d.; f n.d.; h n.d.; k n.d.; z n.d.
-**References**
-a. *Dummy.*
-f. *Dummy.*
-h. *Dummy.*
-Humboldt, Alex von (2015). *Title.*
-k. *Dummy.*
-van Gogh, Vincent (2015). *Title.*
+> **1 Text**  
+van Gogh 2015; Humboldt 2015; a n.d.; f n.d.; h n.d.; k n.d.; z n.d.  
+**References**  
+a. *Dummy.*  
+f. *Dummy.*  
+h. *Dummy.*  
+Humboldt, Alex von (2015). *Title.*  
+k. *Dummy.*  
+van Gogh, Vincent (2015). *Title.*  
 z. *Dummy.*
 
 With `\demotenondroppingparticlesortonly`
 
-> **1 Text**
-van Gogh 2015; Humboldt 2015; a n.d.; f n.d.; h n.d.; k n.d.; z n.d.
-**References**
-a. *Dummy.*
-f. *Dummy.*
-van Gogh, Vincent (2015). *Title.* 
-h. *Dummy.*
-Humboldt, Alex von (2015). *Title.* 
-k. *Dummy.*
+> **1 Text**  
+van Gogh 2015; Humboldt 2015; a n.d.; f n.d.; h n.d.; k n.d.; z n.d.  
+**References**  
+a. *Dummy.*  
+f. *Dummy.*  
+van Gogh, Vincent (2015). *Title.*   
+h. *Dummy.*  
+Humboldt, Alex von (2015). *Title.*   
+k. *Dummy.*  
 z. *Dummy.*
 
 With `\demotenondroppingparticledisplayandsort`
 
 > **1 Text**  
-van Gogh 2015; Humboldt 2015; a n.d.; f n.d.; h n.d.; k n.d.; z n.d.
-**References**
-a. *Dummy.*
-f. *Dummy.*
-Gogh, Vincent van (2015). *Title.*
-h. *Dummy.*
-Humboldt, Alex von (2015). *Title.*
-k. *Dummy.*
+van Gogh 2015; Humboldt 2015; a n.d.; f n.d.; h n.d.; k n.d.; z n.d.  
+**References**  
+a. *Dummy.*  
+f. *Dummy.*  
+Gogh, Vincent van (2015). *Title.*  
+h. *Dummy.*  
+Humboldt, Alex von (2015). *Title.*  
+k. *Dummy.*  
 z. *Dummy.*
