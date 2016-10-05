@@ -16,6 +16,7 @@ reference-section-title: References
 ## pandoc-citeproc bugs
 
 - cheater syntax [docs](https://citeproc-js.readthedocs.io/en/latest/csl-json/markup.html#cheater-syntax-for-odd-fields)
+  - src/Text/CSL/Reference.hs: parseSuppFields
   - does not parse line-entry cheater syntax
   - does not parse dates and date ranges in cheater syntax
     - example: `original-date: 2001-12-15/2001-12-31`
