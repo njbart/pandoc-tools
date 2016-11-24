@@ -1,11 +1,5 @@
 #!/usr/bin/env runghc
 
--- #!/usr/bin/env stack runhaskell
-
--- addRefEnvItem.hs
--- stack exec ghc addRefEnvItem.hs
--- stack --stack-yaml stack.full.yaml ghc -- --make addRefEnvItem.hs
-
 import Text.Pandoc.JSON
 
 main :: IO ()
