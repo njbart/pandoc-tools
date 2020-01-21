@@ -16,6 +16,11 @@ reference-section-title: References
 ## some of the more annoying pandoc-citeproc issues
 
 - EDTF (not supported yet)
+- Capitalise first letter of subtitle if using apa.csl (citeproc-js does this)
+- [Titles as part of narrative need to be moved in front of parenthetical citation](https://github.com/jgm/pandoc-citeproc/issues/136)
+- [Caps-protection in biblatex to CSL JSON/CSL YAML conversion](https://github.com/jgm/pandoc-citeproc/issues/189)
+- [Author-date citations with page references not separated by a semicolon](https://github.com/jgm/pandoc-citeproc/issues/324)
+- [Emphasis in titles trips up double→single quotation marks conversion if using JSON db](https://github.com/jgm/pandoc-citeproc/issues/373)
 - [Incorrect sorting with mixed Y, YMD, and YMD-YMD dates](https://github.com/jgm/pandoc-citeproc/issues/416)
 
 ## pandoc-citeproc issues that have been resolved
@@ -28,7 +33,7 @@ reference-section-title: References
   - does not parse names in cheater syntax
     - example: `editor: Thompson || Hunter S.` (cumulative!)
   - **no longer a huge problem since BBT exports clean (i.e., non-cheater) CSL JSON and CSL YAML**
-- hanging indent in reference section (not supported yet)
+- hanging indent in reference section
   - fixed in https://github.com/jgm/pandoc/commit/0fe635d3ecdc362f11c380c2e0b9518aa03424e9
 
 ## pandoc-citeproc projects
