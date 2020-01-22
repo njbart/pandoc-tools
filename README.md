@@ -13,10 +13,19 @@ reference-section-title: References
 ...
 ```
 
-## some of the more annoying pandoc-citeproc issues
+## some awkward CSL issues
+
+- no support for non-English month-day/day-month combos ([discussion](https://forums.zotero.org/discussion/33959/style-error-chicago-author-date-csl-localized-date#latest))
+- no official support for `volume-title` (supported by pandoc-citeproc & citeproc-js since about 2013)
+- no support for review of more than one work
+- no support for 
+
+
+## some awkward pandoc-citeproc issues
 
 - EDTF (not supported yet)
 - Capitalise first letter of subtitle if using apa.csl (citeproc-js does this)
+- author name as part of narrative with multiple items
 - [Titles as part of narrative need to be moved in front of parenthetical citation](https://github.com/jgm/pandoc-citeproc/issues/136)
 - [Caps-protection in biblatex to CSL JSON/CSL YAML conversion](https://github.com/jgm/pandoc-citeproc/issues/189)
 - [Author-date citations with page references not separated by a semicolon](https://github.com/jgm/pandoc-citeproc/issues/324)
